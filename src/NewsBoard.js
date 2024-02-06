@@ -34,8 +34,8 @@ const NewsBoard = () => {
   }
 
   return (
-    <div className="boardBack" id="boardSliderBack">
-      <div id="boardSlider">
+    <div className="boardBack">
+      <div className="boardSlider">
         {NEWS[currentIndex]}
       </div>
     </div>
