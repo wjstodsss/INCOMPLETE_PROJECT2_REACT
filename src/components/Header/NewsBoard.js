@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import "./Header.css";
 
 const NewsBoard = () => {
   const NEWS = [
@@ -34,8 +34,8 @@ const NewsBoard = () => {
   }
 
   return (
-    <div className="boardBack">
-      <div className="boardSlider">
+    <div className="banner-bg-01">
+      <div className="banner-slide-01">
         {NEWS[currentIndex]}
       </div>
     </div>

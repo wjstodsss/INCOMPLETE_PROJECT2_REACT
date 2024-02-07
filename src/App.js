@@ -1,10 +1,12 @@
 import './App.css';
-import NewsBoard from './NewsBoard';
+import MainNav from './components/Header/MainNav';
+import NewsBoard from './components/Header/NewsBoard';
 
 function App() {
   return (
     <div className="App">
       <NewsBoard />
+      <MainNav />
     </div>
   );
 }
